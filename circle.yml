@@ -2,6 +2,11 @@ machine:
   timezone:
     Asia/Tokyo
 
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init
+
 test:
   pre:
     - bundle exec rubocop --display-cop-names

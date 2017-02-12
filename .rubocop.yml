@@ -2,6 +2,7 @@ AllCops:
   Exclude:
     - 'jpostcode.gemspec'
     - 'jpostcode-data/**/*'
+    - 'vendor/bundle/**/*'
 
 Style/AsciiComments:
   Enabled: false
@@ -35,4 +36,3 @@ Metrics/LineLength:
 
 Metrics/MethodLength:
   Max: 30
-

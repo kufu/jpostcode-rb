@@ -1,8 +1,6 @@
-# Jpostcode
+# Jpostcode [![CircleCI](https://circleci.com/gh/kakipo/jpostcode-rb.svg?style=svg)](https://circleci.com/gh/kakipo/jpostcode-rb)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jpostcode`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Tiny gem to manipulate Japan postcode.
 
 ## Installation
 
@@ -22,7 +20,50 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Basic one:
+
+```ruby
+address = Jpostcode.find('154-0011')
+address.prefecture      # 東京都
+address.prefecture_kana # トウキョウト
+address.prefecture_code # 13
+address.city            # 世田谷区
+address.city_kana       # セタガヤク
+address.town            # 上馬
+address.town_kana       # カミウマ
+address.zip_code        # 1540011
+```
+
+When the code covers multiple addresses:
+
+```ruby
+addresses = Jpostcode.find('0110951')
+addresses.class # Array
+addresses.each do |address|
+  puts address.town
+end
+
+# => 土崎港相染町
+# => 土崎港古川町
+```
+
+Office postcodes are also available:
+
+```ruby
+address = Jpostcode.find('113-8654')
+address.prefecture        # 東京都
+address.prefecture_kana   # トウキョウト
+address.prefecture_code   # 13
+address.city              # 文京区
+address.city_kana         # ブンキョウク
+address.town              # 本郷
+address.town_kana         # ホンゴウ
+address.street            # ７丁目３−１
+address.office_name       # 東京大学　本部事務組織
+address.office_name_kana  # トウキヨウダイガク ホンブジムソシキ
+address.zip_code          # 1138654
+```
+
 
 ## Development
 

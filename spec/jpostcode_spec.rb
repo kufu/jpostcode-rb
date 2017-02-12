@@ -20,33 +20,25 @@ describe Jpostcode do
       end
 
       context 'when there are some addresses for the code' do
-        let(:postcode) { '438-0078' }
+        let(:postcode) { '011-0951' }
         it 'returns array of addresses for the code' do
           expect(result.class).to eq(Array)
 
-          expect(result[0].prefecture).to eq('静岡県')
-          expect(result[0].prefecture_kana).to eq('シズオカケン')
-          expect(result[0].city).to eq('磐田市')
-          expect(result[0].city_kana).to eq('イワタシ')
-          expect(result[0].town).to match('旭ケ丘')
-          expect(result[0].town_kana).to match('アサヒガオカ')
-          expect(result[0].prefecture_code).to eq(22)
+          expect(result[0].prefecture).to eq('秋田県')
+          expect(result[0].prefecture_kana).to eq('アキタケン')
+          expect(result[0].city).to eq('秋田市')
+          expect(result[0].city_kana).to eq('アキタシ')
+          expect(result[0].town).to eq('土崎港相染町')
+          expect(result[0].town_kana).to eq('ツチザキミナトソウゼンマチ')
+          expect(result[0].prefecture_code).to eq(5)
 
-          expect(result[1].prefecture).to eq('静岡県')
-          expect(result[1].prefecture_kana).to eq('シズオカケン')
-          expect(result[1].city).to eq('磐田市')
-          expect(result[1].city_kana).to eq('イワタシ')
-          expect(result[1].town).to match('石原町')
-          expect(result[1].town_kana).to match('イシワラチョウ')
-          expect(result[1].prefecture_code).to eq(22)
-
-          expect(result[2].prefecture).to eq('静岡県')
-          expect(result[2].prefecture_kana).to eq('シズオカケン')
-          expect(result[2].city).to eq('磐田市')
-          expect(result[2].city_kana).to eq('イワタシ')
-          expect(result[2].town).to match('泉町')
-          expect(result[2].town_kana).to match('イズミチョウ')
-          expect(result[2].prefecture_code).to eq(22)
+          expect(result[1].prefecture).to eq('秋田県')
+          expect(result[1].prefecture_kana).to eq('アキタケン')
+          expect(result[1].city).to eq('秋田市')
+          expect(result[1].city_kana).to eq('アキタシ')
+          expect(result[1].town).to eq('土崎港古川町')
+          expect(result[1].town_kana).to eq('ツチザキミナトフルカワマチ')
+          expect(result[1].prefecture_code).to eq(5)
         end
       end
 

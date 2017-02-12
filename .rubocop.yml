@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - 'jpostcode.gemspec'
+    - 'jpostcode-data/**/*'
 
 Style/AsciiComments:
   Enabled: false

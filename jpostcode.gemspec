@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['kakipo']
   spec.email         = ['kakipo@gmail.com']
 
-  spec.summary       = 'Japan postcode project.'
-  spec.description   = 'Japan postcode project.'
+  spec.summary       = 'A Ruby implementation for Jpostcode.'
+  spec.description   = 'A Ruby implementation for Jpostcode.'
   spec.homepage      = 'https://github.com/kakipo/jpostcode-rb'
   spec.license       = 'MIT'
 

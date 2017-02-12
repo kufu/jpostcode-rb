@@ -1,6 +1,6 @@
 # Jpostcode [![CircleCI](https://circleci.com/gh/kakipo/jpostcode-rb.svg?style=svg)](https://circleci.com/gh/kakipo/jpostcode-rb)
 
-Tiny gem to manipulate Japan postcode.
+A Ruby implementation for Jpostcode.
 
 ## Installation
 

@@ -9,23 +9,20 @@ module Jpostcode
   module_function
 
   def find(raw_zip_code)
-    zip_code = raw_zip_code.delete('-')
+    zip_code = raw_zip_code.to_s.delete('-')
+    return nil unless /^\d{7,7}$/ =~ zip_code
 
     json_file = DATA_DIR + zip_code.slice(0, 3) + '.json'
-
-    return false unless File.exist?(json_file)
+    return nil unless File.exist?(json_file)
 
     data = JSON.parse(File.open(json_file).read)
     address_data = data[zip_code.slice(3, 4)]
+    return nil if address_data.nil?
 
     if address_data.instance_of?(Array)
-      results = []
-      address_data.each do |a|
-        results.push Jpostcode::Address.new(a)
-      end
-      return results
+      address_data.map { |a| Jpostcode::Address.new(a) }
+    else
+      Jpostcode::Address.new(address_data)
     end
-
-    address_data ? Jpostcode::Address.new(address_data) : false
   end
 end

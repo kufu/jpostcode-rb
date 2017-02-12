@@ -58,5 +58,27 @@ describe Jpostcode do
         end
       end
     end
+
+    context 'when specified postcode DOES NTO exist' do
+      context 'when the code is nil' do
+        let(:postcode) { nil }
+        it { expect(result).to be_nil }
+      end
+
+      context 'when the code is NOT a string' do
+        let(:postcode) { 1_234_567 }
+        it { expect(result).to be_nil }
+      end
+
+      context 'when the first 3 digits are valid, but the last digits are invalid' do
+        let(:postcode) { '154-9999' }
+        it { expect(result).to be_nil }
+      end
+
+      context 'when the first 3 digits are valid, but the last digits are invalid' do
+        let(:postcode) { '154-0011XYZZY' }
+        it { expect(result).to be_nil }
+      end
+    end
   end
 end

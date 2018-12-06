@@ -1,3 +1,3 @@
 [submodule "jpostcode-data"]
-	path = jpostcode-data
-	url = git@github.com:kakipo/jpostcode-data.git
+  path = jpostcode-data
+  url = git@github.com:kufu/jpostcode-data.git

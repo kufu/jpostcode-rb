@@ -1,4 +1,4 @@
-# Jpostcode [![CircleCI](https://circleci.com/gh/kakipo/jpostcode-rb.svg?style=svg)](https://circleci.com/gh/kakipo/jpostcode-rb)
+# Jpostcode [![CircleCI](https://circleci.com/gh/kufu/jpostcode-rb.svg?style=svg)](https://circleci.com/gh/kufu/jpostcode-rb)
 
 A Ruby implementation for Japan postcode.
 
@@ -73,12 +73,12 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ### Update Submodule
 
-This gem depends on `kakipo/jpostcode-data`.
-After updating `kakipo/jpostcode-data`, run `git submodule foreach git pull origin master` in order to pull the data.
+This gem depends on `kufu/jpostcode-data`.
+After updating `kufu/jpostcode-data`, run `git submodule foreach git pull origin master` in order to pull the data.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/kakipo/jpostcode-rb.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kufu/jpostcode-rb.
 
 
 ## License

@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'A Ruby implementation for Japan postcode.'
   spec.description   = 'A Ruby implementation for Japan postcode.'
-  spec.homepage      = 'https://github.com/kakipo/jpostcode-rb'
+  spec.homepage      = 'https://github.com/kufu/jpostcode-rb'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

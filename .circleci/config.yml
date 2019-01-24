@@ -7,13 +7,13 @@ jobs:
     steps:
       - checkout
       - run:
-        name: submodule update and execute
-        command: |
-          git submodule init
-          git submodule update
-          bundle install
-          bundle exec rake
-          bundle exec rubocop
+          name: submodule update and execute
+          command: |
+            git submodule init
+            git submodule update
+            bundle install
+            bundle exec rake
+            bundle exec rubocop
 
 workflows:
   version: 2

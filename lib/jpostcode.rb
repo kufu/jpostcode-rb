@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require 'jpostcode/version'
 require 'jpostcode/address'
 require 'json'

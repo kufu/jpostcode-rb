@@ -1,9 +1,9 @@
 version: 2
 
 jobs:
-  ruby-2.3:
+  ruby-2.6:
     docker:
-      - image: ruby:2.3.1
+      - image: ruby:2.6.3
     steps:
       - checkout
       - run:
@@ -19,4 +19,4 @@ workflows:
   version: 2
   test:
     jobs:
-      - ruby-2.3
+      - ruby-2.6

@@ -64,7 +64,7 @@ describe Jpostcode do
       end
     end
 
-    context 'when specified postcode DOES NTO exist' do
+    context 'when specified postcode DOES NOT exist' do
       context 'when the code is nil' do
         let(:postcode) { nil }
         it { expect(result).to be_nil }

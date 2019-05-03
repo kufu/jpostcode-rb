@@ -6,7 +6,7 @@ module Jpostcode
                 :city, :city_kana, :town, :town_kana, :street,
                 :office_name, :office_name_kana
 
-    alias_method :postcode, :zip_code
+    alias postcode zip_code
 
     def initialize(data)
       @zip_code         = data['postcode']

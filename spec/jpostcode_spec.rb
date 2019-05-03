@@ -10,6 +10,7 @@ describe Jpostcode do
       context 'when there is only one address for the code' do
         let(:postcode) { '154-0011' }
         it 'returns a single record' do
+          expect(result.zip_code).to eq('1540011')
           expect(result.prefecture).to eq('東京都')
           expect(result.prefecture_kana).to eq('トウキョウト')
           expect(result.prefecture_code).to eq(13)
@@ -25,6 +26,7 @@ describe Jpostcode do
         it 'returns array of addresses for the code' do
           expect(result.class).to eq(Array)
 
+          expect(result[0].zip_code).to eq('0110951')
           expect(result[0].prefecture).to eq('秋田県')
           expect(result[0].prefecture_kana).to eq('アキタケン')
           expect(result[0].city).to eq('秋田市')
@@ -33,6 +35,7 @@ describe Jpostcode do
           expect(result[0].town_kana).to eq('ツチザキミナトソウゼンマチ')
           expect(result[0].prefecture_code).to eq(5)
 
+          expect(result[1].zip_code).to eq('0110951')
           expect(result[1].prefecture).to eq('秋田県')
           expect(result[1].prefecture_kana).to eq('アキタケン')
           expect(result[1].city).to eq('秋田市')
@@ -46,6 +49,7 @@ describe Jpostcode do
       context 'when the code is an office postcode' do
         let(:postcode) { '113-8654' }
         it 'returns an office address' do
+          expect(result.zip_code).to eq('1138654')
           expect(result.prefecture).to eq('東京都')
           expect(result.prefecture_kana).to eq('トウキョウト')
           expect(result.prefecture_code).to eq(13)

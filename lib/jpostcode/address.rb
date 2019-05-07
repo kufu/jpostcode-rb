@@ -6,8 +6,10 @@ module Jpostcode
                 :city, :city_kana, :town, :town_kana, :street,
                 :office_name, :office_name_kana
 
+    alias postcode zip_code
+
     def initialize(data)
-      @zip_code         = data['zip_code']
+      @zip_code         = data['postcode']
       @prefecture       = data['prefecture']
       @prefecture_kana  = data['prefecture_kana']
       @prefecture_code  = data['prefecture_code']

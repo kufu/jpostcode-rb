@@ -1,5 +1,13 @@
 # Change Log
 
+## [v0.1.12](https://github.com/kufu/jpostcode-rb/tree/v0.1.12) (2019-06-03)
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v0.1.11...v0.1.12)
+
+**Merged pull requests:**
+
+- bumpup 0.1.12 [\#18](https://github.com/kufu/jpostcode-rb/pull/18) ([tknzk](https://github.com/tknzk))
+- add CHANGELOG.md [\#17](https://github.com/kufu/jpostcode-rb/pull/17) ([tknzk](https://github.com/tknzk))
+
 ## [v0.1.11](https://github.com/kufu/jpostcode-rb/tree/v0.1.11) (2019-05-07)
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v0.1.10...v0.1.11)
 

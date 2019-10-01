@@ -1,5 +1,24 @@
 # Change Log
 
+## [v0.1.16](https://github.com/kufu/jpostcode-rb/tree/v0.1.16) (2019-10-01)
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v0.1.15...v0.1.16)
+
+**Merged pull requests:**
+
+- add codeowners [\#37](https://github.com/kufu/jpostcode-rb/pull/37) ([tknzk](https://github.com/tknzk))
+- bumpup 0.1.16 [\#36](https://github.com/kufu/jpostcode-rb/pull/36) ([tknzk](https://github.com/tknzk))
+- Bump parser from 2.6.4.0 to 2.6.4.1 [\#35](https://github.com/kufu/jpostcode-rb/pull/35) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump rspec-expectations from 3.8.2 to 3.8.4 [\#34](https://github.com/kufu/jpostcode-rb/pull/34) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump guard from 2.15.0 to 2.15.1 [\#33](https://github.com/kufu/jpostcode-rb/pull/33) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump rspec-mocks from 3.8.0 to 3.8.1 [\#32](https://github.com/kufu/jpostcode-rb/pull/32) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump ffi from 1.10.0 to 1.11.1 [\#31](https://github.com/kufu/jpostcode-rb/pull/31) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump rspec-core from 3.8.0 to 3.8.2 [\#30](https://github.com/kufu/jpostcode-rb/pull/30) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump notiffany from 0.1.1 to 0.1.3 [\#29](https://github.com/kufu/jpostcode-rb/pull/29) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump rubocop-performance from 1.1.0 to 1.4.1 [\#28](https://github.com/kufu/jpostcode-rb/pull/28) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump rubocop from 0.67.2 to 0.74.0 [\#27](https://github.com/kufu/jpostcode-rb/pull/27) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Update rake requirement from ~\> 10.0 to ~\> 12.3 [\#26](https://github.com/kufu/jpostcode-rb/pull/26) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- update changelog [\#25](https://github.com/kufu/jpostcode-rb/pull/25) ([tknzk](https://github.com/tknzk))
+
 ## [v0.1.15](https://github.com/kufu/jpostcode-rb/tree/v0.1.15) (2019-09-02)
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v0.1.14...v0.1.15)
 

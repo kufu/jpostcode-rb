@@ -1,5 +1,20 @@
 # Change Log
 
+## [v0.1.18](https://github.com/kufu/jpostcode-rb/tree/v0.1.18) (2019-12-02)
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v0.1.17...v0.1.18)
+
+**Merged pull requests:**
+
+- bumpup [\#62](https://github.com/kufu/jpostcode-rb/pull/62) ([tknzk](https://github.com/tknzk))
+- Bump rubocop from 0.76.0 to 0.77.0 [\#61](https://github.com/kufu/jpostcode-rb/pull/61) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump ffi from 1.11.2 to 1.11.3 [\#60](https://github.com/kufu/jpostcode-rb/pull/60) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump parallel from 1.19.0 to 1.19.1 [\#59](https://github.com/kufu/jpostcode-rb/pull/59) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump parallel from 1.18.0 to 1.19.0 [\#58](https://github.com/kufu/jpostcode-rb/pull/58) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump rubocop-performance from 1.5.0 to 1.5.1 [\#57](https://github.com/kufu/jpostcode-rb/pull/57) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump ffi from 1.11.1 to 1.11.2 [\#56](https://github.com/kufu/jpostcode-rb/pull/56) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump guard from 2.16.0 to 2.16.1 [\#55](https://github.com/kufu/jpostcode-rb/pull/55) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- update changelog [\#54](https://github.com/kufu/jpostcode-rb/pull/54) ([tknzk](https://github.com/tknzk))
+
 ## [v0.1.17](https://github.com/kufu/jpostcode-rb/tree/v0.1.17) (2019-11-01)
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v0.1.16...v0.1.17)
 
@@ -91,7 +106,6 @@
 **Merged pull requests:**
 
 - bumpup 20190429 [\#14](https://github.com/kufu/jpostcode-rb/pull/14) ([tknzk](https://github.com/tknzk))
-- bumpup 20190401 [\#13](https://github.com/kufu/jpostcode-rb/pull/13) ([tknzk](https://github.com/tknzk))
 
 ## [v0.1.8](https://github.com/kufu/jpostcode-rb/tree/v0.1.8) (2019-03-05)
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v0.1.7...v0.1.8)
@@ -105,6 +119,7 @@
 
 **Merged pull requests:**
 
+- bumpup 20190401 [\#13](https://github.com/kufu/jpostcode-rb/pull/13) ([tknzk](https://github.com/tknzk))
 - bumpup [\#11](https://github.com/kufu/jpostcode-rb/pull/11) ([tknzk](https://github.com/tknzk))
 - Obey rubocop [\#10](https://github.com/kufu/jpostcode-rb/pull/10) ([tknzk](https://github.com/tknzk))
 - fix nest [\#9](https://github.com/kufu/jpostcode-rb/pull/9) ([tknzk](https://github.com/tknzk))

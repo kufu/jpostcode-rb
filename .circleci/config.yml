@@ -9,10 +9,9 @@ executors:
 commands:
   pre-setup:
     steps:
-      run: |
-        git submodule init
-        git submodule update
-        bundle install
+      - run: git submodule init
+      - run: git submodule update
+      - run: bundle install
 
   rake:
     steps:

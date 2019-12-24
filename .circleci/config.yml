@@ -1,22 +1,48 @@
-version: 2
+version: 2.1
+
+executors:
+  default:
+    docker:
+      - name: ruby
+        image: ruby:2.6.5
+
+commands:
+  pre-setup:
+    steps:
+      run: |
+        git submodule init
+        git submodule update
+        bundle install
+
+  rake:
+    steps:
+      - run: bundle exec rake
+
+  rubocop:
+    steps:
+      - run: bundle exec rake
 
 jobs:
-  ruby-2.6:
-    docker:
-      - image: ruby:2.6.5
+  build:
+    executor: default
     steps:
       - checkout
-      - run:
-          name: submodule update and execute
-          command: |
-            git submodule init
-            git submodule update
-            bundle install
-            bundle exec rake
-            bundle exec rubocop
+      - pre-setup
+  rspec:
+    executor: default
+      - rake
+  rubocop:
+    executor: default
+      - rubocop
 
 workflows:
   version: 2
   test:
     jobs:
-      - ruby-2.6
+      - build
+      - rspec:
+        requires:
+          - build
+      - rubocop:
+        requires:
+          - build

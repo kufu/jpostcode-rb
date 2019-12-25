@@ -11,6 +11,7 @@ jobs:
           command: |
             git submodule init
             git submodule update
+            gem install bundler
             bundle install
             bundle exec rake
             bundle exec rubocop

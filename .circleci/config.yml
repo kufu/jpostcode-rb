@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   ruby:
     docker:
-      - image: ruby:2.6.5
+      - image: rubylang/ruby:2.6.5-bionic
     steps:
       - checkout
       - run:

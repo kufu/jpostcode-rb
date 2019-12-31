@@ -1,5 +1,22 @@
 # Changelog
 
+## [v0.1.20](https://github.com/kufu/jpostcode-rb/tree/v0.1.20) (2019-12-31)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v0.1.19...v0.1.20)
+
+**Merged pull requests:**
+
+- bumpup 0.1.20 \(2020/01\) [\#78](https://github.com/kufu/jpostcode-rb/pull/78) ([tknzk](https://github.com/tknzk))
+- use build by rubylang docker image on circleci [\#77](https://github.com/kufu/jpostcode-rb/pull/77) ([tknzk](https://github.com/tknzk))
+- bundle update [\#76](https://github.com/kufu/jpostcode-rb/pull/76) ([tknzk](https://github.com/tknzk))
+- Bump rb-inotify from 0.10.0 to 0.10.1 [\#74](https://github.com/kufu/jpostcode-rb/pull/74) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- circleci 2.1 [\#73](https://github.com/kufu/jpostcode-rb/pull/73) ([tknzk](https://github.com/tknzk))
+- use bundler 2.1.2 [\#71](https://github.com/kufu/jpostcode-rb/pull/71) ([tknzk](https://github.com/tknzk))
+- Bump rubocop from 0.77.0 to 0.78.0 [\#70](https://github.com/kufu/jpostcode-rb/pull/70) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump thor from 1.0.0 to 1.0.1 [\#69](https://github.com/kufu/jpostcode-rb/pull/69) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump thor from 0.20.3 to 1.0.0 [\#68](https://github.com/kufu/jpostcode-rb/pull/68) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- update changelog [\#67](https://github.com/kufu/jpostcode-rb/pull/67) ([tknzk](https://github.com/tknzk))
+
 ## [v0.1.19](https://github.com/kufu/jpostcode-rb/tree/v0.1.19) (2019-12-12)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v0.1.18...v0.1.19)

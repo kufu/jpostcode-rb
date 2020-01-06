@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   ruby:
     docker:
-      - image: rubylang/ruby:2.6.5-bionic
+      - image: rubylang/ruby:2.7.0-bionic
     steps:
       - run:
           name: Install System Dependencies

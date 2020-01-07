@@ -1,0 +1,28 @@
+name: Ruby
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ruby:
+        # https://hub.docker.com/r/rubylang/ruby
+        - '2.5-bionic'
+        - '2.6-bionic'
+        - '2.7-bionic'
+        - 'latest'
+    container:
+      image: rubylang/ruby:${{ matrix.ruby }}
+
+    steps:
+      - uses: actions/checkout@master
+      - name: Build and test
+        run: |
+          git submodule init
+          git submodule update
+          gem install bundler -v 2.1.4 --force
+          bundle install
+          bundle exec rubocop
+          bundle exec rake

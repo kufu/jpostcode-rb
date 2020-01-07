@@ -23,10 +23,8 @@ jobs:
         run: |
           apt-get update -y && apt-get install -y ssh
       - uses: actions/checkout@master
-      - name: submodule checkout
         with:
           submodules: true
-      - uses: actions/checkout@master
       - name: Build and test
         run: |
           gem install bundler -v 2.1.4 --force

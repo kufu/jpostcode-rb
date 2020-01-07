@@ -4,7 +4,7 @@ require 'spec_helper'
 
 describe Jpostcode do
   describe '.find' do
-    let(:result) { Jpostcode.find(postcode) }
+    subject(:result) { Jpostcode.find(postcode) }
 
     context 'when specified postcode exists' do
       context 'when there is only one address for the code' do
@@ -67,22 +67,22 @@ describe Jpostcode do
     context 'when specified postcode DOES NOT exist' do
       context 'when the code is nil' do
         let(:postcode) { nil }
-        it { expect(result).to be_nil }
+        it { is_expected.to be_nil }
       end
 
       context 'when the code is NOT a string' do
         let(:postcode) { 1_234_567 }
-        it { expect(result).to be_nil }
+        it { is_expected.to be_nil }
       end
 
       context 'when the first 3 digits are valid, but the last digits are invalid' do
         let(:postcode) { '154-9999' }
-        it { expect(result).to be_nil }
+        it { is_expected.to be_nil }
       end
 
       context 'when the first 3 digits are valid, but the last digits are invalid' do
         let(:postcode) { '154-0011XYZZY' }
-        it { expect(result).to be_nil }
+        it { is_expected.to be_nil }
       end
     end
   end

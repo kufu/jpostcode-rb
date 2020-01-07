@@ -18,11 +18,11 @@ jobs:
       image: rubylang/ruby:${{ matrix.ruby }}
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - name: install system dependencies
         run: |
           apt-get update -y && apt-get install -y ssh
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
         with:
           submodules: true
       - name: Build and test

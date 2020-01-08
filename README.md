@@ -80,6 +80,9 @@ After updating `kufu/jpostcode-data`, run `git submodule foreach git pull origin
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/kufu/jpostcode-rb.
 
+## Code of Conduct
+
+Everyone interacting in the Jpostcode project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/kufu/jpostcode-rb/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 

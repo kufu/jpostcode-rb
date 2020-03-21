@@ -2,4 +2,4 @@
 
 $LOAD_PATH.unshift File.expand_path('../lib', __dir__)
 require 'jpostcode'
-require 'pry'
+# require 'pry'

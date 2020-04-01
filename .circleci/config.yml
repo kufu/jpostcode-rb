@@ -4,10 +4,10 @@ executors:
   working_directory: /root/jpostcode-rb
   ruby_2_7:
     docker:
-      - image: rubylang/ruby:2.7.0-bionic
+      - image: rubylang/ruby:2.7.1-bionic
   ruby_2_6:
     docker:
-      - image: rubylang/ruby:2.6.5-bionic
+      - image: rubylang/ruby:2.6.6-bionic
   ruby_2_5:
     docker:
       - image: rubylang/ruby:2.5.7-bionic

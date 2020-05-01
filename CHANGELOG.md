@@ -1,5 +1,15 @@
 # Changelog
 
+## [v1.0.0.20200501](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20200501) (2020-05-01)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20200401...v1.0.0.20200501)
+
+**Merged pull requests:**
+
+- bumpup 20200501 [\#98](https://github.com/kufu/jpostcode-rb/pull/98) ([tknzk](https://github.com/tknzk))
+- 🎉 Ruby 2.7.1 [\#97](https://github.com/kufu/jpostcode-rb/pull/97) ([tknzk](https://github.com/tknzk))
+- update CHANGELOG [\#96](https://github.com/kufu/jpostcode-rb/pull/96) ([tknzk](https://github.com/tknzk))
+
 ## [v1.0.0.20200401](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20200401) (2020-04-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20200302...v1.0.0.20200401)
@@ -22,7 +32,6 @@
 
 - bumpup 20200302 [\#91](https://github.com/kufu/jpostcode-rb/pull/91) ([tknzk](https://github.com/tknzk))
 - update CHANGELOG [\#90](https://github.com/kufu/jpostcode-rb/pull/90) ([tknzk](https://github.com/tknzk))
-- bumpup 20200201 [\#89](https://github.com/kufu/jpostcode-rb/pull/89) ([tknzk](https://github.com/tknzk))
 
 ## [v1.0.0.20200201](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20200201) (2020-02-01)
 
@@ -35,6 +44,7 @@
 
 **Merged pull requests:**
 
+- bumpup 20200201 [\#89](https://github.com/kufu/jpostcode-rb/pull/89) ([tknzk](https://github.com/tknzk))
 - bundler ~\> 2.1 [\#87](https://github.com/kufu/jpostcode-rb/pull/87) ([tknzk](https://github.com/tknzk))
 - bundle update [\#86](https://github.com/kufu/jpostcode-rb/pull/86) ([tknzk](https://github.com/tknzk))
 - add CODE\_OF\_CONDUCT [\#84](https://github.com/kufu/jpostcode-rb/pull/84) ([tknzk](https://github.com/tknzk))
@@ -222,7 +232,6 @@
 
 - bumpup [\#7](https://github.com/kufu/jpostcode-rb/pull/7) ([tknzk](https://github.com/tknzk))
 - s/kakipo/kufu/ [\#5](https://github.com/kufu/jpostcode-rb/pull/5) ([tknzk](https://github.com/tknzk))
-- Bump up 20181205 [\#4](https://github.com/kufu/jpostcode-rb/pull/4) ([tknzk](https://github.com/tknzk))
 
 ## [v0.1.4](https://github.com/kufu/jpostcode-rb/tree/v0.1.4) (2018-12-05)
 
@@ -230,6 +239,7 @@
 
 **Merged pull requests:**
 
+- Bump up 20181205 [\#4](https://github.com/kufu/jpostcode-rb/pull/4) ([tknzk](https://github.com/tknzk))
 - Migrate circleci 2 [\#2](https://github.com/kufu/jpostcode-rb/pull/2) ([tknzk](https://github.com/tknzk))
 
 ## [v0.1.3](https://github.com/kufu/jpostcode-rb/tree/v0.1.3) (2018-11-08)

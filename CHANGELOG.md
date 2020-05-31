@@ -1,5 +1,15 @@
 # Changelog
 
+## [v1.0.0.20200601](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20200601) (2020-05-31)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20200501...v1.0.0.20200601)
+
+**Merged pull requests:**
+
+- bumpup 20200601 [\#101](https://github.com/kufu/jpostcode-rb/pull/101) ([tknzk](https://github.com/tknzk))
+- bundle update [\#100](https://github.com/kufu/jpostcode-rb/pull/100) ([tknzk](https://github.com/tknzk))
+- update changelog [\#99](https://github.com/kufu/jpostcode-rb/pull/99) ([tknzk](https://github.com/tknzk))
+
 ## [v1.0.0.20200501](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20200501) (2020-05-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20200401...v1.0.0.20200501)
@@ -96,6 +106,7 @@
 - Bump ffi from 1.11.1 to 1.11.2 [\#56](https://github.com/kufu/jpostcode-rb/pull/56) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 - Bump guard from 2.16.0 to 2.16.1 [\#55](https://github.com/kufu/jpostcode-rb/pull/55) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 - update changelog [\#54](https://github.com/kufu/jpostcode-rb/pull/54) ([tknzk](https://github.com/tknzk))
+- Bump jaro\_winkler from 1.5.3 to 1.5.4 [\#51](https://github.com/kufu/jpostcode-rb/pull/51) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 
 ## [v0.1.17](https://github.com/kufu/jpostcode-rb/tree/v0.1.17) (2019-11-01)
 
@@ -105,7 +116,6 @@
 
 - bumpup 0.1.17 [\#53](https://github.com/kufu/jpostcode-rb/pull/53) ([tknzk](https://github.com/tknzk))
 - Bump guard from 2.15.1 to 2.16.0 [\#52](https://github.com/kufu/jpostcode-rb/pull/52) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
-- Bump jaro\_winkler from 1.5.3 to 1.5.4 [\#51](https://github.com/kufu/jpostcode-rb/pull/51) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 - Bump rubocop from 0.75.1 to 0.76.0 [\#50](https://github.com/kufu/jpostcode-rb/pull/50) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 - Bump rubocop from 0.75.0 to 0.75.1 [\#49](https://github.com/kufu/jpostcode-rb/pull/49) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 - Bump rspec from 3.8.0 to 3.9.0 [\#48](https://github.com/kufu/jpostcode-rb/pull/48) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))

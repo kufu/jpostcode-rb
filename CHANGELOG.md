@@ -1,5 +1,19 @@
 # Changelog
 
+## [v1.0.0.20200901](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20200901) (2020-09-01)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20200801...v1.0.0.20200901)
+
+**Closed issues:**
+
+- Dependabot can't resolve your Ruby dependency files [\#108](https://github.com/kufu/jpostcode-rb/issues/108)
+
+**Merged pull requests:**
+
+- bumpup 1.0.0.20200901 [\#114](https://github.com/kufu/jpostcode-rb/pull/114) ([tknzk](https://github.com/tknzk))
+- bundle update [\#113](https://github.com/kufu/jpostcode-rb/pull/113) ([tknzk](https://github.com/tknzk))
+- update changelog [\#111](https://github.com/kufu/jpostcode-rb/pull/111) ([tknzk](https://github.com/tknzk))
+
 ## [v1.0.0.20200801](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20200801) (2020-08-03)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20200701...v1.0.0.20200801)
@@ -60,6 +74,7 @@
 **Merged pull requests:**
 
 - bumpup 20200401 [\#95](https://github.com/kufu/jpostcode-rb/pull/95) ([tknzk](https://github.com/tknzk))
+- bundle update [\#92](https://github.com/kufu/jpostcode-rb/pull/92) ([tknzk](https://github.com/tknzk))
 
 ## [v1.0.0.20200302](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20200302) (2020-03-02)
 
@@ -67,7 +82,6 @@
 
 **Merged pull requests:**
 
-- bundle update [\#92](https://github.com/kufu/jpostcode-rb/pull/92) ([tknzk](https://github.com/tknzk))
 - bumpup 20200302 [\#91](https://github.com/kufu/jpostcode-rb/pull/91) ([tknzk](https://github.com/tknzk))
 - update CHANGELOG [\#90](https://github.com/kufu/jpostcode-rb/pull/90) ([tknzk](https://github.com/tknzk))
 
@@ -89,6 +103,7 @@
 - Make the tests "DRY" using "subject" [\#83](https://github.com/kufu/jpostcode-rb/pull/83) ([machupicchubeta](https://github.com/machupicchubeta))
 - Add old version ruby ci [\#81](https://github.com/kufu/jpostcode-rb/pull/81) ([tknzk](https://github.com/tknzk))
 - ruby 2.7.0, rake ~\> 13 [\#80](https://github.com/kufu/jpostcode-rb/pull/80) ([tknzk](https://github.com/tknzk))
+- update changelog [\#79](https://github.com/kufu/jpostcode-rb/pull/79) ([tknzk](https://github.com/tknzk))
 
 ## [v0.1.20](https://github.com/kufu/jpostcode-rb/tree/v0.1.20) (2019-12-31)
 
@@ -96,7 +111,6 @@
 
 **Merged pull requests:**
 
-- update changelog [\#79](https://github.com/kufu/jpostcode-rb/pull/79) ([tknzk](https://github.com/tknzk))
 - bumpup 0.1.20 \(2020/01\) [\#78](https://github.com/kufu/jpostcode-rb/pull/78) ([tknzk](https://github.com/tknzk))
 - use build by rubylang docker image on circleci [\#77](https://github.com/kufu/jpostcode-rb/pull/77) ([tknzk](https://github.com/tknzk))
 - bundle update [\#76](https://github.com/kufu/jpostcode-rb/pull/76) ([tknzk](https://github.com/tknzk))
@@ -157,6 +171,7 @@
 - Bump listen from 3.1.5 to 3.2.0 [\#40](https://github.com/kufu/jpostcode-rb/pull/40) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 - Bump rubocop from 0.74.0 to 0.75.0 [\#39](https://github.com/kufu/jpostcode-rb/pull/39) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 - update changelog [\#38](https://github.com/kufu/jpostcode-rb/pull/38) ([tknzk](https://github.com/tknzk))
+- add codeowners [\#37](https://github.com/kufu/jpostcode-rb/pull/37) ([tknzk](https://github.com/tknzk))
 
 ## [v0.1.16](https://github.com/kufu/jpostcode-rb/tree/v0.1.16) (2019-10-01)
 
@@ -164,7 +179,6 @@
 
 **Merged pull requests:**
 
-- add codeowners [\#37](https://github.com/kufu/jpostcode-rb/pull/37) ([tknzk](https://github.com/tknzk))
 - bumpup 0.1.16 [\#36](https://github.com/kufu/jpostcode-rb/pull/36) ([tknzk](https://github.com/tknzk))
 - Bump parser from 2.6.4.0 to 2.6.4.1 [\#35](https://github.com/kufu/jpostcode-rb/pull/35) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 - Bump rspec-expectations from 3.8.2 to 3.8.4 [\#34](https://github.com/kufu/jpostcode-rb/pull/34) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
@@ -186,8 +200,6 @@
 
 - bumpup 0.1.15 [\#24](https://github.com/kufu/jpostcode-rb/pull/24) ([tknzk](https://github.com/tknzk))
 - update changelog [\#23](https://github.com/kufu/jpostcode-rb/pull/23) ([tknzk](https://github.com/tknzk))
-- bumpup [\#20](https://github.com/kufu/jpostcode-rb/pull/20) ([tknzk](https://github.com/tknzk))
-- update changelog [\#19](https://github.com/kufu/jpostcode-rb/pull/19) ([tknzk](https://github.com/tknzk))
 
 ## [v0.1.14](https://github.com/kufu/jpostcode-rb/tree/v0.1.14) (2019-08-01)
 
@@ -201,6 +213,11 @@
 ## [v0.1.13](https://github.com/kufu/jpostcode-rb/tree/v0.1.13) (2019-07-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v0.1.12...v0.1.13)
+
+**Merged pull requests:**
+
+- bumpup [\#20](https://github.com/kufu/jpostcode-rb/pull/20) ([tknzk](https://github.com/tknzk))
+- update changelog [\#19](https://github.com/kufu/jpostcode-rb/pull/19) ([tknzk](https://github.com/tknzk))
 
 ## [v0.1.12](https://github.com/kufu/jpostcode-rb/tree/v0.1.12) (2019-06-03)
 
@@ -232,7 +249,6 @@
 
 - bumpup 20190429 [\#14](https://github.com/kufu/jpostcode-rb/pull/14) ([tknzk](https://github.com/tknzk))
 - bumpup 20190401 [\#13](https://github.com/kufu/jpostcode-rb/pull/13) ([tknzk](https://github.com/tknzk))
-- bumpup [\#11](https://github.com/kufu/jpostcode-rb/pull/11) ([tknzk](https://github.com/tknzk))
 
 ## [v0.1.8](https://github.com/kufu/jpostcode-rb/tree/v0.1.8) (2019-03-05)
 
@@ -248,6 +264,7 @@
 
 **Merged pull requests:**
 
+- bumpup [\#11](https://github.com/kufu/jpostcode-rb/pull/11) ([tknzk](https://github.com/tknzk))
 - Obey rubocop [\#10](https://github.com/kufu/jpostcode-rb/pull/10) ([tknzk](https://github.com/tknzk))
 - fix nest [\#9](https://github.com/kufu/jpostcode-rb/pull/9) ([tknzk](https://github.com/tknzk))
 

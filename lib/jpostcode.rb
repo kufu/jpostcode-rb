@@ -5,7 +5,7 @@ require 'jpostcode/address'
 require 'json'
 
 module Jpostcode
-  DATA_DIR = File.dirname(__FILE__) + '/../jpostcode-data/data/json/'
+  DATA_DIR = "#{File.dirname(__FILE__)}/../jpostcode-data/data/json/"
 
   module_function
 
@@ -13,7 +13,7 @@ module Jpostcode
     zip_code = raw_zip_code.to_s.delete('-')
     return nil unless /^\d{7,7}$/ =~ zip_code
 
-    json_file = DATA_DIR + zip_code.slice(0, 3) + '.json'
+    json_file = "#{DATA_DIR}#{zip_code.slice(0, 3)}.json"
     return nil unless File.exist?(json_file)
 
     data = JSON.parse(File.open(json_file).read)

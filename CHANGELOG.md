@@ -1,5 +1,20 @@
 # Changelog
 
+## [v1.0.0.20201101](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20201101) (2020-11-02)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20201001...v1.0.0.20201101)
+
+**Closed issues:**
+
+- Dependabot can't resolve your Ruby dependency files [\#118](https://github.com/kufu/jpostcode-rb/issues/118)
+- Dependabot can't resolve your Ruby dependency files [\#112](https://github.com/kufu/jpostcode-rb/issues/112)
+
+**Merged pull requests:**
+
+- bumpup 20201101 [\#122](https://github.com/kufu/jpostcode-rb/pull/122) ([tknzk](https://github.com/tknzk))
+- bundle update [\#121](https://github.com/kufu/jpostcode-rb/pull/121) ([tknzk](https://github.com/tknzk))
+- use docker authenticated pull [\#119](https://github.com/kufu/jpostcode-rb/pull/119) ([tknzk](https://github.com/tknzk))
+
 ## [v1.0.0.20201001](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20201001) (2020-10-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20200901...v1.0.0.20201001)

@@ -1,5 +1,18 @@
 # Changelog
 
+## [v1.0.0.20201201](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20201201) (2020-12-01)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20201101...v1.0.0.20201201)
+
+**Closed issues:**
+
+- Dependabot can't resolve your Ruby dependency files [\#120](https://github.com/kufu/jpostcode-rb/issues/120)
+
+**Merged pull requests:**
+
+- bumpup 20201201 [\#125](https://github.com/kufu/jpostcode-rb/pull/125) ([tknzk](https://github.com/tknzk))
+- bundle update [\#124](https://github.com/kufu/jpostcode-rb/pull/124) ([tknzk](https://github.com/tknzk))
+
 ## [v1.0.0.20201101](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20201101) (2020-11-02)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20201001...v1.0.0.20201101)

@@ -1,5 +1,16 @@
 # Changelog
 
+## [v1.0.0.20210101](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20210101) (2020-12-31)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20201201...v1.0.0.20210101)
+
+**Merged pull requests:**
+
+- bumpup 20210101 [\#129](https://github.com/kufu/jpostcode-rb/pull/129) ([tknzk](https://github.com/tknzk))
+- 💎 Ruby 3.0.0 [\#128](https://github.com/kufu/jpostcode-rb/pull/128) ([tknzk](https://github.com/tknzk))
+- bundle update [\#127](https://github.com/kufu/jpostcode-rb/pull/127) ([tknzk](https://github.com/tknzk))
+- bundle update [\#126](https://github.com/kufu/jpostcode-rb/pull/126) ([tknzk](https://github.com/tknzk))
+
 ## [v1.0.0.20201201](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20201201) (2020-12-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20201101...v1.0.0.20201201)
@@ -37,6 +48,7 @@
 - bumpup 20201001 [\#117](https://github.com/kufu/jpostcode-rb/pull/117) ([tknzk](https://github.com/tknzk))
 - bundle update [\#116](https://github.com/kufu/jpostcode-rb/pull/116) ([tknzk](https://github.com/tknzk))
 - update changelog [\#115](https://github.com/kufu/jpostcode-rb/pull/115) ([tknzk](https://github.com/tknzk))
+- bumpup 1.0.0.20200901 [\#114](https://github.com/kufu/jpostcode-rb/pull/114) ([tknzk](https://github.com/tknzk))
 
 ## [v1.0.0.20200901](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20200901) (2020-09-01)
 
@@ -48,7 +60,6 @@
 
 **Merged pull requests:**
 
-- bumpup 1.0.0.20200901 [\#114](https://github.com/kufu/jpostcode-rb/pull/114) ([tknzk](https://github.com/tknzk))
 - bundle update [\#113](https://github.com/kufu/jpostcode-rb/pull/113) ([tknzk](https://github.com/tknzk))
 - update changelog [\#111](https://github.com/kufu/jpostcode-rb/pull/111) ([tknzk](https://github.com/tknzk))
 
@@ -122,6 +133,7 @@
 
 - bumpup 20200302 [\#91](https://github.com/kufu/jpostcode-rb/pull/91) ([tknzk](https://github.com/tknzk))
 - update CHANGELOG [\#90](https://github.com/kufu/jpostcode-rb/pull/90) ([tknzk](https://github.com/tknzk))
+- Add old version ruby ci [\#81](https://github.com/kufu/jpostcode-rb/pull/81) ([tknzk](https://github.com/tknzk))
 
 ## [v1.0.0.20200201](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20200201) (2020-02-01)
 
@@ -139,7 +151,6 @@
 - bundle update [\#86](https://github.com/kufu/jpostcode-rb/pull/86) ([tknzk](https://github.com/tknzk))
 - add CODE\_OF\_CONDUCT [\#84](https://github.com/kufu/jpostcode-rb/pull/84) ([tknzk](https://github.com/tknzk))
 - Make the tests "DRY" using "subject" [\#83](https://github.com/kufu/jpostcode-rb/pull/83) ([machupicchubeta](https://github.com/machupicchubeta))
-- Add old version ruby ci [\#81](https://github.com/kufu/jpostcode-rb/pull/81) ([tknzk](https://github.com/tknzk))
 - ruby 2.7.0, rake ~\> 13 [\#80](https://github.com/kufu/jpostcode-rb/pull/80) ([tknzk](https://github.com/tknzk))
 - update changelog [\#79](https://github.com/kufu/jpostcode-rb/pull/79) ([tknzk](https://github.com/tknzk))
 

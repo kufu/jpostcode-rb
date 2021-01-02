@@ -101,14 +101,6 @@ jobs:
       - submodule_sync
       - bundle_gems
       - run_tests
-  run_tests_on_ruby_2_4:
-    executor: ruby_2_4
-    steps:
-      - install_system_dependencies
-      - checkout
-      - submodule_sync
-      - bundle_gems
-      - run_tests
 
 workflows:
   version: 2
@@ -118,4 +110,3 @@ workflows:
       - run_tests_on_ruby_2_7
       - run_tests_on_ruby_2_6
       - run_tests_on_ruby_2_5
-      - run_tests_on_ruby_2_4

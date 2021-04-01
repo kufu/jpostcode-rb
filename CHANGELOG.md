@@ -1,5 +1,25 @@
 # Changelog
 
+## [v1.0.0.20210401](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20210401) (2021-04-01)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20210301...v1.0.0.20210401)
+
+**Closed issues:**
+
+- Dependabot can't resolve your Ruby dependency files [\#142](https://github.com/kufu/jpostcode-rb/issues/142)
+- Dependabot can't resolve your Ruby dependency files [\#141](https://github.com/kufu/jpostcode-rb/issues/141)
+- Dependabot can't resolve your Ruby dependency files [\#140](https://github.com/kufu/jpostcode-rb/issues/140)
+- Dependabot can't resolve your Ruby dependency files [\#139](https://github.com/kufu/jpostcode-rb/issues/139)
+- Dependabot can't resolve your Ruby dependency files [\#138](https://github.com/kufu/jpostcode-rb/issues/138)
+- Dependabot can't resolve your Ruby dependency files [\#137](https://github.com/kufu/jpostcode-rb/issues/137)
+- Dependabot can't resolve your Ruby dependency files [\#123](https://github.com/kufu/jpostcode-rb/issues/123)
+
+**Merged pull requests:**
+
+- bumpup 202104 [\#146](https://github.com/kufu/jpostcode-rb/pull/146) ([tknzk](https://github.com/tknzk))
+- Ruby 2.5 EOL [\#145](https://github.com/kufu/jpostcode-rb/pull/145) ([tknzk](https://github.com/tknzk))
+- bundle update [\#144](https://github.com/kufu/jpostcode-rb/pull/144) ([tknzk](https://github.com/tknzk))
+
 ## [v1.0.0.20210301](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20210301) (2021-03-02)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20210201...v1.0.0.20210301)

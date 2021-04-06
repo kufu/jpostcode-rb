@@ -4,25 +4,19 @@ executors:
   working_directory: /root/jpostcode-rb
   ruby_3_0:
     docker:
-      - image: rubylang/ruby:3.0.0-focal
+      - image: rubylang/ruby:3.0.1-focal
         auth:
           username: smarthrinc
           password: $DOCKER_HUB_ACCESS_TOKEN
   ruby_2_7:
     docker:
-      - image: rubylang/ruby:2.7.2-bionic
+      - image: rubylang/ruby:2.7.3-bionic
         auth:
           username: smarthrinc
           password: $DOCKER_HUB_ACCESS_TOKEN
   ruby_2_6:
     docker:
-      - image: rubylang/ruby:2.6.6-bionic
-        auth:
-          username: smarthrinc
-          password: $DOCKER_HUB_ACCESS_TOKEN
-  ruby_2_4:
-    docker:
-      - image: rubylang/ruby:2.4.9-bionic
+      - image: rubylang/ruby:2.6.7-bionic
         auth:
           username: smarthrinc
           password: $DOCKER_HUB_ACCESS_TOKEN

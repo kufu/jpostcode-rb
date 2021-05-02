@@ -1,5 +1,26 @@
 # Changelog
 
+## [v1.0.0.20210501](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20210501) (2021-05-02)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20210401...v1.0.0.20210501)
+
+**Closed issues:**
+
+- Dependabot can't resolve your Ruby dependency files [\#148](https://github.com/kufu/jpostcode-rb/issues/148)
+- Dependabot can't resolve your Ruby dependency files [\#143](https://github.com/kufu/jpostcode-rb/issues/143)
+
+**Merged pull requests:**
+
+- bumpup 202105 [\#156](https://github.com/kufu/jpostcode-rb/pull/156) ([tknzk](https://github.com/tknzk))
+- Upgrade to GitHub-native Dependabot [\#155](https://github.com/kufu/jpostcode-rb/pull/155) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump rubocop from 1.12.1 to 1.13.0 [\#154](https://github.com/kufu/jpostcode-rb/pull/154) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump rubocop-performance from 1.10.2 to 1.11.0 [\#153](https://github.com/kufu/jpostcode-rb/pull/153) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump rexml from 3.2.4 to 3.2.5 [\#152](https://github.com/kufu/jpostcode-rb/pull/152) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump parser from 3.0.0.0 to 3.0.1.0 [\#151](https://github.com/kufu/jpostcode-rb/pull/151) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump rubocop from 1.12.0 to 1.12.1 [\#150](https://github.com/kufu/jpostcode-rb/pull/150) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- ruby 3.0.1 [\#149](https://github.com/kufu/jpostcode-rb/pull/149) ([tknzk](https://github.com/tknzk))
+- update require ruby version. ruby 2.5 EOL [\#147](https://github.com/kufu/jpostcode-rb/pull/147) ([tknzk](https://github.com/tknzk))
+
 ## [v1.0.0.20210401](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20210401) (2021-04-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20210301...v1.0.0.20210401)

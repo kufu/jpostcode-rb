@@ -1,5 +1,41 @@
 # Changelog
 
+## [v1.0.0.20210801](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20210801) (2021-08-02)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20210701...v1.0.0.20210801)
+
+**Merged pull requests:**
+
+- bumpup 202108 [\#191](https://github.com/kufu/jpostcode-rb/pull/191) ([tknzk](https://github.com/tknzk))
+- Bump rubocop from 1.18.3 to 1.18.4 [\#190](https://github.com/kufu/jpostcode-rb/pull/190) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump listen from 3.5.1 to 3.6.0 [\#189](https://github.com/kufu/jpostcode-rb/pull/189) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump guard from 2.17.0 to 2.18.0 [\#188](https://github.com/kufu/jpostcode-rb/pull/188) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-ast from 1.7.0 to 1.8.0 [\#187](https://github.com/kufu/jpostcode-rb/pull/187) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rake from 13.0.5 to 13.0.6 [\#186](https://github.com/kufu/jpostcode-rb/pull/186) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump parser from 3.0.1.1 to 3.0.2.0 [\#185](https://github.com/kufu/jpostcode-rb/pull/185) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rake from 13.0.4 to 13.0.5 [\#184](https://github.com/kufu/jpostcode-rb/pull/184) ([dependabot[bot]](https://github.com/apps/dependabot))
+- ruby 3.0.2 [\#183](https://github.com/kufu/jpostcode-rb/pull/183) ([tknzk](https://github.com/tknzk))
+- Bump rubocop-performance from 1.11.3 to 1.11.4 [\#182](https://github.com/kufu/jpostcode-rb/pull/182) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.18.2 to 1.18.3 [\#181](https://github.com/kufu/jpostcode-rb/pull/181) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rake from 13.0.3 to 13.0.4 [\#180](https://github.com/kufu/jpostcode-rb/pull/180) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.18.1 to 1.18.2 [\#179](https://github.com/kufu/jpostcode-rb/pull/179) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.18.0 to 1.18.1 [\#178](https://github.com/kufu/jpostcode-rb/pull/178) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v1.0.0.20210701](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20210701) (2021-06-30)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20210601...v1.0.0.20210701)
+
+**Merged pull requests:**
+
+- bumpup 202107 [\#177](https://github.com/kufu/jpostcode-rb/pull/177) ([tknzk](https://github.com/tknzk))
+- use context on circleci [\#176](https://github.com/kufu/jpostcode-rb/pull/176) ([tknzk](https://github.com/tknzk))
+- Bump rubocop from 1.17.0 to 1.18.0 [\#175](https://github.com/kufu/jpostcode-rb/pull/175) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump formatador from 0.2.5 to 0.3.0 [\#174](https://github.com/kufu/jpostcode-rb/pull/174) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ffi from 1.15.1 to 1.15.3 [\#173](https://github.com/kufu/jpostcode-rb/pull/173) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.16.1 to 1.17.0 [\#172](https://github.com/kufu/jpostcode-rb/pull/172) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.16.0 to 1.16.1 [\#171](https://github.com/kufu/jpostcode-rb/pull/171) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.15.0 to 1.16.0 [\#170](https://github.com/kufu/jpostcode-rb/pull/170) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.0.0.20210601](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20210601) (2021-06-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20210501...v1.0.0.20210601)

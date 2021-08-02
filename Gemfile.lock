@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jpostcode (1.0.0.20210701)
+    jpostcode (1.0.0.20210801)
 
 GEM
   remote: https://rubygems.org/
@@ -108,4 +108,4 @@ DEPENDENCIES
   rubocop-performance
 
 BUNDLED WITH
-   2.2.15
+   2.2.24

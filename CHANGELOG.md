@@ -1,5 +1,23 @@
 # Changelog
 
+## [v1.0.0.20210901](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20210901) (2021-09-01)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20210801...v1.0.0.20210901)
+
+**Merged pull requests:**
+
+- bumpup 202109 [\#203](https://github.com/kufu/jpostcode-rb/pull/203) ([tknzk](https://github.com/tknzk))
+- Bump guard-rubocop from 1.4.0 to 1.5.0 [\#202](https://github.com/kufu/jpostcode-rb/pull/202) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.19.1 to 1.20.0 [\#201](https://github.com/kufu/jpostcode-rb/pull/201) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-ast from 1.10.0 to 1.11.0 [\#200](https://github.com/kufu/jpostcode-rb/pull/200) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump listen from 3.6.0 to 3.7.0 [\#199](https://github.com/kufu/jpostcode-rb/pull/199) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.19.0 to 1.19.1 [\#198](https://github.com/kufu/jpostcode-rb/pull/198) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-performance from 1.11.4 to 1.11.5 [\#197](https://github.com/kufu/jpostcode-rb/pull/197) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-ast from 1.9.1 to 1.10.0 [\#195](https://github.com/kufu/jpostcode-rb/pull/195) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.18.4 to 1.19.0 [\#194](https://github.com/kufu/jpostcode-rb/pull/194) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-ast from 1.9.0 to 1.9.1 [\#193](https://github.com/kufu/jpostcode-rb/pull/193) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-ast from 1.8.0 to 1.9.0 [\#192](https://github.com/kufu/jpostcode-rb/pull/192) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.0.0.20210801](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20210801) (2021-08-02)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20210701...v1.0.0.20210801)

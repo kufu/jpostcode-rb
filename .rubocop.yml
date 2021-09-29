@@ -3,6 +3,7 @@ AllCops:
     - 'jpostcode.gemspec'
     - 'jpostcode-data/**/*'
     - 'vendor/bundle/**/*'
+  NewCops: enable
 
 Style/AsciiComments:
   Enabled: false

@@ -1,5 +1,21 @@
 # Changelog
 
+## [v1.0.0.20211001](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20211001) (2021-10-01)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20210901...v1.0.0.20211001)
+
+**Merged pull requests:**
+
+- bumpup 20211001 [\#212](https://github.com/kufu/jpostcode-rb/pull/212) ([tknzk](https://github.com/tknzk))
+- Bump rubocop from 1.21.0 to 1.22.0 [\#211](https://github.com/kufu/jpostcode-rb/pull/211) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Modified rubocop [\#210](https://github.com/kufu/jpostcode-rb/pull/210) ([tknzk](https://github.com/tknzk))
+- Bump rubocop-ast from 1.11.0 to 1.12.0 [\#209](https://github.com/kufu/jpostcode-rb/pull/209) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump unicode-display\_width from 2.0.0 to 2.1.0 [\#208](https://github.com/kufu/jpostcode-rb/pull/208) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.20.0 to 1.21.0 [\#207](https://github.com/kufu/jpostcode-rb/pull/207) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump parallel from 1.20.1 to 1.21.0 [\#206](https://github.com/kufu/jpostcode-rb/pull/206) ([dependabot[bot]](https://github.com/apps/dependabot))
+- use bundler 2.2.26 [\#205](https://github.com/kufu/jpostcode-rb/pull/205) ([tknzk](https://github.com/tknzk))
+- Bump ffi from 1.15.3 to 1.15.4 [\#204](https://github.com/kufu/jpostcode-rb/pull/204) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.0.0.20210901](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20210901) (2021-09-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20210801...v1.0.0.20210901)

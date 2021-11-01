@@ -1,5 +1,17 @@
 # Changelog
 
+## [v1.0.0.20211101](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20211101) (2021-11-01)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20211001...v1.0.0.20211101)
+
+**Merged pull requests:**
+
+- bumpup 202111 [\#217](https://github.com/kufu/jpostcode-rb/pull/217) ([tknzk](https://github.com/tknzk))
+- Bump rubocop-performance from 1.11.5 to 1.12.0 [\#216](https://github.com/kufu/jpostcode-rb/pull/216) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.22.2 to 1.22.3 [\#215](https://github.com/kufu/jpostcode-rb/pull/215) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.22.1 to 1.22.2 [\#214](https://github.com/kufu/jpostcode-rb/pull/214) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.22.0 to 1.22.1 [\#213](https://github.com/kufu/jpostcode-rb/pull/213) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.0.0.20211001](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20211001) (2021-10-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20210901...v1.0.0.20211001)

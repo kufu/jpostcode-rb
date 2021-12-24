@@ -16,7 +16,7 @@ module Jpostcode
     json_file = "#{DATA_DIR}#{zip_code.slice(0, 3)}.json"
     return nil unless File.exist?(json_file)
 
-    data = JSON.parse(File.open(json_file).read)
+    data = JSON.parse(File.read(json_file))
     address_data = data[zip_code.slice(3, 4)]
     return nil if address_data.nil?
 

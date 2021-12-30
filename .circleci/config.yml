@@ -4,7 +4,7 @@ executors:
   working_directory: /root/jpostcode-rb
   ruby_3_1:
     docker:
-      - image: rubylang/ruby:3.1.0-preview1-focal
+      - image: rubylang/ruby:3.1.0-focal
         auth:
           username: smarthrinc
           password: $DOCKER_HUB_ACCESS_TOKEN

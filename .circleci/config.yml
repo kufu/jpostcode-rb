@@ -4,7 +4,7 @@ executors:
   working_directory: /root/jpostcode-rb
   ruby_3_1:
     docker:
-      - image: rubylang/ruby:3.1.0-focal
+      - image: rubylang/ruby:3.1.1-focal
         auth:
           username: smarthrinc
           password: $DOCKER_HUB_ACCESS_TOKEN
@@ -51,7 +51,7 @@ commands:
       - run:
           name: Bundle gems
           command: |
-            gem install bundler -v 2.2.31 --no-document --force
+            gem install bundler -v 2.3.8 --no-document --force
             bundle install
   run_tests:
     description: "Run tests"

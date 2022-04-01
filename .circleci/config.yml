@@ -20,12 +20,6 @@ executors:
         auth:
           username: smarthrinc
           password: $DOCKER_HUB_ACCESS_TOKEN
-  ruby_2_6:
-    docker:
-      - image: rubylang/ruby:2.6.8-bionic
-        auth:
-          username: smarthrinc
-          password: $DOCKER_HUB_ACCESS_TOKEN
 
 commands:
   install_system_dependencies:
@@ -105,6 +99,4 @@ workflows:
       - run_tests_on_ruby_3_0:
           context: smarthr-dockerhub
       - run_tests_on_ruby_2_7:
-          context: smarthr-dockerhub
-      - run_tests_on_ruby_2_6:
           context: smarthr-dockerhub

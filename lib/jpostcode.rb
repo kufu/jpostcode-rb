@@ -11,7 +11,7 @@ module Jpostcode
 
   def find(raw_zip_code)
     zip_code = raw_zip_code.to_s.delete('-')
-    return nil unless /^\d{7,7}$/ =~ zip_code
+    return nil unless zip_code.match?(/^\d{7,7}$/)
 
     json_file = "#{DATA_DIR}#{zip_code.slice(0, 3)}.json"
     return nil unless File.exist?(json_file)

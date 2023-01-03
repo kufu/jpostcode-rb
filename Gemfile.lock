@@ -94,7 +94,7 @@ GEM
     ruby-progressbar (1.11.0)
     shellany (0.0.1)
     thor (1.2.1)
-    unicode-display_width (2.3.0)
+    unicode-display_width (2.4.0)
 
 PLATFORMS
   ruby

@@ -28,7 +28,7 @@ commands:
       - run:
           name: Install System Dependencies
           # https://circleci.com/docs/2.0/custom-images/#required-tools-for-primary-containers
-          command: apt-get update -y && apt-get install -y ssh git
+          command: apt-get update -y && apt-get install -y ssh git libyaml
 
   submodule_sync:
     description: "git submodule init & update"

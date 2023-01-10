@@ -1,5 +1,28 @@
 # Changelog
 
+## [v1.0.0.20230101](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20230101) (2023-01-10)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20221201...v1.0.0.20230101)
+
+**Merged pull requests:**
+
+- bumpup 202301 [\#363](https://github.com/kufu/jpostcode-rb/pull/363) ([tknzk](https://github.com/tknzk))
+- install git on circleci image [\#362](https://github.com/kufu/jpostcode-rb/pull/362) ([tknzk](https://github.com/tknzk))
+- Bump pry from 0.14.1 to 0.14.2 [\#361](https://github.com/kufu/jpostcode-rb/pull/361) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump listen from 3.7.1 to 3.8.0 [\#360](https://github.com/kufu/jpostcode-rb/pull/360) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rspec-expectations from 3.12.1 to 3.12.2 [\#359](https://github.com/kufu/jpostcode-rb/pull/359) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rspec-mocks from 3.12.1 to 3.12.2 [\#358](https://github.com/kufu/jpostcode-rb/pull/358) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.41.1 to 1.42.0 [\#354](https://github.com/kufu/jpostcode-rb/pull/354) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-ast from 1.24.0 to 1.24.1 [\#353](https://github.com/kufu/jpostcode-rb/pull/353) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-performance from 1.15.1 to 1.15.2 [\#352](https://github.com/kufu/jpostcode-rb/pull/352) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.41.0 to 1.41.1 [\#351](https://github.com/kufu/jpostcode-rb/pull/351) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.40.0 to 1.41.0 [\#350](https://github.com/kufu/jpostcode-rb/pull/350) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rspec-expectations from 3.12.0 to 3.12.1 [\#349](https://github.com/kufu/jpostcode-rb/pull/349) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-rspec from 2.15.0 to 2.16.0 [\#348](https://github.com/kufu/jpostcode-rb/pull/348) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rspec-mocks from 3.12.0 to 3.12.1 [\#347](https://github.com/kufu/jpostcode-rb/pull/347) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.39.0 to 1.40.0 [\#346](https://github.com/kufu/jpostcode-rb/pull/346) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump json from 2.6.2 to 2.6.3 [\#345](https://github.com/kufu/jpostcode-rb/pull/345) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.0.0.20221201](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20221201) (2022-12-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20221101...v1.0.0.20221201)

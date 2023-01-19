@@ -2,21 +2,27 @@ version: 2.1
 
 executors:
   working_directory: /root/jpostcode-rb
+  ruby_3_2:
+    docker:
+      - image: rubylang/ruby:3.2.0-dev-focal
+        auth:
+          username: smarthrinc
+          password: $DOCKER_HUB_ACCESS_TOKEN
   ruby_3_1:
     docker:
-      - image: rubylang/ruby:3.1.2-focal
+      - image: rubylang/ruby:3.1.2-dev-focal
         auth:
           username: smarthrinc
           password: $DOCKER_HUB_ACCESS_TOKEN
   ruby_3_0:
     docker:
-      - image: rubylang/ruby:3.0.5-focal
+      - image: rubylang/ruby:3.0.5-dev-focal
         auth:
           username: smarthrinc
           password: $DOCKER_HUB_ACCESS_TOKEN
   ruby_2_7:
     docker:
-      - image: rubylang/ruby:2.7.6-bionic
+      - image: rubylang/ruby:2.7.6-dev-bionic
         auth:
           username: smarthrinc
           password: $DOCKER_HUB_ACCESS_TOKEN
@@ -28,7 +34,7 @@ commands:
       - run:
           name: Install System Dependencies
           # https://circleci.com/docs/2.0/custom-images/#required-tools-for-primary-containers
-          command: apt-get update -y && apt-get install -y ssh git make gcc
+          command: apt-get update -y && apt-get install -y ssh
 
   submodule_sync:
     description: "git submodule init & update"
@@ -57,6 +63,14 @@ commands:
             bundle exec rubocop
 
 jobs:
+  run_tests_on_ruby_3_2:
+    executor: ruby_3_2
+    steps:
+      - install_system_dependencies
+      - checkout
+      - submodule_sync
+      - bundle_gems
+      - run_tests
   run_tests_on_ruby_3_1:
     executor: ruby_3_1
     steps:
@@ -94,6 +108,8 @@ workflows:
   version: 2
   test:
     jobs:
+      - run_tests_on_ruby_3_2:
+          context: smarthr-dockerhub
       - run_tests_on_ruby_3_1:
           context: smarthr-dockerhub
       - run_tests_on_ruby_3_0:

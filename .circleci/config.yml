@@ -4,7 +4,7 @@ executors:
   working_directory: /root/jpostcode-rb
   ruby_3_2:
     docker:
-      - image: rubylang/ruby:3.2.0-dev-focal
+      - image: rubylang/ruby:3.2-dev-jammy
         auth:
           username: smarthrinc
           password: $DOCKER_HUB_ACCESS_TOKEN
@@ -17,12 +17,6 @@ executors:
   ruby_3_0:
     docker:
       - image: rubylang/ruby:3.0-dev-focal
-        auth:
-          username: smarthrinc
-          password: $DOCKER_HUB_ACCESS_TOKEN
-  ruby_2_7:
-    docker:
-      - image: rubylang/ruby:2.7-dev-bionic
         auth:
           username: smarthrinc
           password: $DOCKER_HUB_ACCESS_TOKEN
@@ -51,7 +45,7 @@ commands:
       - run:
           name: Bundle gems
           command: |
-            gem install bundler -v 2.3.8 --no-document --force
+            gem install bundler -v 2.4.10 --no-document --force
             bundle install
   run_tests:
     description: "Run tests"
@@ -87,22 +81,6 @@ jobs:
       - submodule_sync
       - bundle_gems
       - run_tests
-  run_tests_on_ruby_2_7:
-    executor: ruby_2_7
-    steps:
-      - install_system_dependencies
-      - checkout
-      - submodule_sync
-      - bundle_gems
-      - run_tests
-  run_tests_on_ruby_2_6:
-    executor: ruby_2_6
-    steps:
-      - install_system_dependencies
-      - checkout
-      - submodule_sync
-      - bundle_gems
-      - run_tests
 
 workflows:
   version: 2
@@ -113,6 +91,4 @@ workflows:
       - run_tests_on_ruby_3_1:
           context: smarthr-dockerhub
       - run_tests_on_ruby_3_0:
-          context: smarthr-dockerhub
-      - run_tests_on_ruby_2_7:
           context: smarthr-dockerhub

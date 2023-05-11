@@ -99,7 +99,7 @@ GEM
       rubocop-factory_bot (~> 2.22)
     ruby-progressbar (1.13.0)
     shellany (0.0.1)
-    thor (1.2.1)
+    thor (1.2.2)
     unicode-display_width (2.4.2)
 
 PLATFORMS

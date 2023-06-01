@@ -1,5 +1,62 @@
 # Changelog
 
+## [v1.0.0.20230601](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20230601) (2023-06-01)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20230501...v1.0.0.20230601)
+
+**Merged pull requests:**
+
+- bumpup 20230601 [\#421](https://github.com/kufu/jpostcode-rb/pull/421) ([tknzk](https://github.com/tknzk))
+- Bump rubocop-performance from 1.17.1 to 1.18.0 [\#420](https://github.com/kufu/jpostcode-rb/pull/420) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-factory\_bot from 2.23.0 to 2.23.1 [\#419](https://github.com/kufu/jpostcode-rb/pull/419) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-factory\_bot from 2.22.0 to 2.23.0 [\#418](https://github.com/kufu/jpostcode-rb/pull/418) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.50.2 to 1.51.0 [\#417](https://github.com/kufu/jpostcode-rb/pull/417) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump thor from 1.2.1 to 1.2.2 [\#416](https://github.com/kufu/jpostcode-rb/pull/416) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-rspec from 2.20.0 to 2.22.0 [\#415](https://github.com/kufu/jpostcode-rb/pull/415) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-ast from 1.28.0 to 1.28.1 [\#414](https://github.com/kufu/jpostcode-rb/pull/414) ([dependabot[bot]](https://github.com/apps/dependabot))
+- drop 2.7 [\#413](https://github.com/kufu/jpostcode-rb/pull/413) ([tknzk](https://github.com/tknzk))
+
+## [v1.0.0.20230501](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20230501) (2023-05-01)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20230401...v1.0.0.20230501)
+
+**Merged pull requests:**
+
+- bumpup 202305 [\#412](https://github.com/kufu/jpostcode-rb/pull/412) ([tknzk](https://github.com/tknzk))
+- Ruby versions [\#411](https://github.com/kufu/jpostcode-rb/pull/411) ([tknzk](https://github.com/tknzk))
+- Bump parser from 3.2.2.0 to 3.2.2.1 [\#410](https://github.com/kufu/jpostcode-rb/pull/410) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-capybara from 2.17.1 to 2.18.0 [\#409](https://github.com/kufu/jpostcode-rb/pull/409) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rspec-expectations from 3.12.2 to 3.12.3 [\#408](https://github.com/kufu/jpostcode-rb/pull/408) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump parallel from 1.22.1 to 1.23.0 [\#407](https://github.com/kufu/jpostcode-rb/pull/407) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-rspec from 2.19.0 to 2.20.0 [\#406](https://github.com/kufu/jpostcode-rb/pull/406) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rspec-core from 3.12.1 to 3.12.2 [\#405](https://github.com/kufu/jpostcode-rb/pull/405) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.50.1 to 1.50.2 [\#404](https://github.com/kufu/jpostcode-rb/pull/404) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump regexp\_parser from 2.7.0 to 2.8.0 [\#403](https://github.com/kufu/jpostcode-rb/pull/403) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.50.0 to 1.50.1 [\#402](https://github.com/kufu/jpostcode-rb/pull/402) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.49.0 to 1.50.0 [\#401](https://github.com/kufu/jpostcode-rb/pull/401) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-performance from 1.16.0 to 1.17.1 [\#400](https://github.com/kufu/jpostcode-rb/pull/400) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.48.1 to 1.49.0 [\#399](https://github.com/kufu/jpostcode-rb/pull/399) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v1.0.0.20230401](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20230401) (2023-04-03)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20230301...v1.0.0.20230401)
+
+**Merged pull requests:**
+
+- bumpup 202304 [\#398](https://github.com/kufu/jpostcode-rb/pull/398) ([tknzk](https://github.com/tknzk))
+- ruby 3.1.4 [\#397](https://github.com/kufu/jpostcode-rb/pull/397) ([tknzk](https://github.com/tknzk))
+- Bump parser from 3.2.1.1 to 3.2.2.0 [\#396](https://github.com/kufu/jpostcode-rb/pull/396) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rspec-mocks from 3.12.4 to 3.12.5 [\#395](https://github.com/kufu/jpostcode-rb/pull/395) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-ast from 1.27.0 to 1.28.0 [\#394](https://github.com/kufu/jpostcode-rb/pull/394) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.48.0 to 1.48.1 [\#393](https://github.com/kufu/jpostcode-rb/pull/393) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rspec-mocks from 3.12.3 to 3.12.4 [\#392](https://github.com/kufu/jpostcode-rb/pull/392) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump parser from 3.2.1.0 to 3.2.1.1 [\#391](https://github.com/kufu/jpostcode-rb/pull/391) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.47.0 to 1.48.0 [\#390](https://github.com/kufu/jpostcode-rb/pull/390) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-rspec from 2.18.1 to 2.19.0 [\#389](https://github.com/kufu/jpostcode-rb/pull/389) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ruby-progressbar from 1.12.0 to 1.13.0 [\#388](https://github.com/kufu/jpostcode-rb/pull/388) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.46.0 to 1.47.0 [\#387](https://github.com/kufu/jpostcode-rb/pull/387) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ruby-progressbar from 1.11.0 to 1.12.0 [\#386](https://github.com/kufu/jpostcode-rb/pull/386) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.0.0.20230301](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20230301) (2023-03-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20230201...v1.0.0.20230301)

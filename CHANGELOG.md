@@ -1,5 +1,23 @@
 # Changelog
 
+## [v1.0.0.20230701](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20230701) (2023-07-03)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20230601...v1.0.0.20230701)
+
+**Merged pull requests:**
+
+- bumpup 202307 [\#432](https://github.com/kufu/jpostcode-rb/pull/432) ([tknzk](https://github.com/tknzk))
+- Bump rubocop from 1.53.1 to 1.54.0 [\#431](https://github.com/kufu/jpostcode-rb/pull/431) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.53.0 to 1.53.1 [\#430](https://github.com/kufu/jpostcode-rb/pull/430) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rspec-support from 3.12.0 to 3.12.1 [\#429](https://github.com/kufu/jpostcode-rb/pull/429) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.52.1 to 1.53.0 [\#428](https://github.com/kufu/jpostcode-rb/pull/428) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump racc from 1.7.0 to 1.7.1 [\#427](https://github.com/kufu/jpostcode-rb/pull/427) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.52.0 to 1.52.1 [\#426](https://github.com/kufu/jpostcode-rb/pull/426) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump regexp\_parser from 2.8.0 to 2.8.1 [\#425](https://github.com/kufu/jpostcode-rb/pull/425) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump parser from 3.2.2.1 to 3.2.2.3 [\#424](https://github.com/kufu/jpostcode-rb/pull/424) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.51.0 to 1.52.0 [\#423](https://github.com/kufu/jpostcode-rb/pull/423) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-ast from 1.28.1 to 1.29.0 [\#422](https://github.com/kufu/jpostcode-rb/pull/422) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.0.0.20230601](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20230601) (2023-06-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20230501...v1.0.0.20230601)

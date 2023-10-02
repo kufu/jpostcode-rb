@@ -1,5 +1,24 @@
 # Changelog
 
+## [v1.0.0.20231001](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20231001) (2023-10-01)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20230901...v1.0.0.20231001)
+
+**Merged pull requests:**
+
+- bumpup 202310 [\#460](https://github.com/kufu/jpostcode-rb/pull/460) ([tknzk](https://github.com/tknzk))
+- Bump unicode-display\_width from 2.4.2 to 2.5.0 [\#459](https://github.com/kufu/jpostcode-rb/pull/459) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.56.3 to 1.56.4 [\#458](https://github.com/kufu/jpostcode-rb/pull/458) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ffi from 1.16.1 to 1.16.2 [\#457](https://github.com/kufu/jpostcode-rb/pull/457) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ffi from 1.15.5 to 1.16.1 [\#456](https://github.com/kufu/jpostcode-rb/pull/456) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-rspec from 2.24.0 to 2.24.1 [\#455](https://github.com/kufu/jpostcode-rb/pull/455) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-capybara from 2.18.0 to 2.19.0 [\#454](https://github.com/kufu/jpostcode-rb/pull/454) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-factory\_bot from 2.23.1 to 2.24.0 [\#453](https://github.com/kufu/jpostcode-rb/pull/453) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-performance from 1.19.0 to 1.19.1 [\#452](https://github.com/kufu/jpostcode-rb/pull/452) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump guard from 2.18.0 to 2.18.1 [\#451](https://github.com/kufu/jpostcode-rb/pull/451) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.56.2 to 1.56.3 [\#450](https://github.com/kufu/jpostcode-rb/pull/450) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-rspec from 2.23.2 to 2.24.0 [\#449](https://github.com/kufu/jpostcode-rb/pull/449) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.0.0.20230901](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20230901) (2023-09-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20230801...v1.0.0.20230901)

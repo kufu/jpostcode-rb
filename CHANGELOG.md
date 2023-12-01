@@ -1,11 +1,14 @@
 # Changelog
 
-## [Unreleased](https://github.com/kufu/jpostcode-rb/tree/HEAD)
+## [v1.0.0.20231201](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20231201) (2023-12-01)
 
-[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20231101...HEAD)
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20231101...v1.0.0.20231201)
 
 **Merged pull requests:**
 
+- bumpup 202312 [\#475](https://github.com/kufu/jpostcode-rb/pull/475) ([tknzk](https://github.com/tknzk))
+- Bump lumberjack from 1.2.9 to 1.2.10 [\#474](https://github.com/kufu/jpostcode-rb/pull/474) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump racc from 1.7.2 to 1.7.3 [\#473](https://github.com/kufu/jpostcode-rb/pull/473) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump racc from 1.7.1 to 1.7.2 [\#472](https://github.com/kufu/jpostcode-rb/pull/472) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v1.0.0.20231101](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20231101) (2023-11-01)

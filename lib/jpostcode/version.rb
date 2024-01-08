@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module Jpostcode
-  VERSION = '1.0.0.20231201'
+  VERSION = '1.0.0.20240101'
 end

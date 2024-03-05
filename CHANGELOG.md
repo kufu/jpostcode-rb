@@ -1,5 +1,19 @@
 # Changelog
 
+## [v1.0.0.20240301](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20240301) (2024-03-05)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20240201...v1.0.0.20240301)
+
+**Merged pull requests:**
+
+- bumpup 202403 [\#518](https://github.com/kufu/jpostcode-rb/pull/518) ([gongo](https://github.com/gongo))
+- Bump rubocop-ast from 1.30.0 to 1.31.0 [\#513](https://github.com/kufu/jpostcode-rb/pull/513) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rspec-support from 3.13.0 to 3.13.1 [\#511](https://github.com/kufu/jpostcode-rb/pull/511) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump listen from 3.8.0 to 3.9.0 [\#510](https://github.com/kufu/jpostcode-rb/pull/510) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rspec from 3.12.0 to 3.13.0 [\#508](https://github.com/kufu/jpostcode-rb/pull/508) ([dependabot[bot]](https://github.com/apps/dependabot))
+- modified codeowners [\#504](https://github.com/kufu/jpostcode-rb/pull/504) ([tknzk](https://github.com/tknzk))
+- modified CODEOWNERS [\#503](https://github.com/kufu/jpostcode-rb/pull/503) ([tknzk](https://github.com/tknzk))
+
 ## [v1.0.0.20240201](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20240201) (2024-02-01)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20240101...v1.0.0.20240201)

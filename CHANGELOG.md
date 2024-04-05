@@ -1,5 +1,23 @@
 # Changelog
 
+## [v1.0.0.20240401](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20240401) (2024-04-05)
+
+[Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20240301...v1.0.0.20240401)
+
+**Merged pull requests:**
+
+- bumpup 202404 [\#527](https://github.com/kufu/jpostcode-rb/pull/527) ([mkmn](https://github.com/mkmn))
+- Bump rubocop-rspec from 2.28.0 to 2.29.1 [\#526](https://github.com/kufu/jpostcode-rb/pull/526) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump json from 2.7.1 to 2.7.2 [\#525](https://github.com/kufu/jpostcode-rb/pull/525) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rake from 13.1.0 to 13.2.0 [\#524](https://github.com/kufu/jpostcode-rb/pull/524) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-rspec from 2.27.1 to 2.28.0 [\#523](https://github.com/kufu/jpostcode-rb/pull/523) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-performance from 1.20.2 to 1.21.0 [\#522](https://github.com/kufu/jpostcode-rb/pull/522) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.62.0 to 1.62.1 [\#521](https://github.com/kufu/jpostcode-rb/pull/521) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-ast from 1.31.1 to 1.31.2 [\#520](https://github.com/kufu/jpostcode-rb/pull/520) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop from 1.60.2 to 1.62.0 [\#519](https://github.com/kufu/jpostcode-rb/pull/519) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump rubocop-rspec from 2.26.1 to 2.27.1 [\#516](https://github.com/kufu/jpostcode-rb/pull/516) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump thor from 1.3.0 to 1.3.1 [\#512](https://github.com/kufu/jpostcode-rb/pull/512) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.0.0.20240301](https://github.com/kufu/jpostcode-rb/tree/v1.0.0.20240301) (2024-03-05)
 
 [Full Changelog](https://github.com/kufu/jpostcode-rb/compare/v1.0.0.20240201...v1.0.0.20240301)

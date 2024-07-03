@@ -41,11 +41,11 @@ jobs:
       run: |
         sed -i "s/VERSION = \".*\"/VERSION = \"${{ github.event.inputs.gem-version }}\"/" lib/jpostcode/version.rb
 
-    - name: Commit and push
-      run: |
-        git switch -c bump-up-version-${{ github.event.inputs.gem-version }}
-        git add lib/version.rb
-        git add Gemfile.lock
-        git add jpostcode-data
-        git commit -m "Update version to ${{ github.event.inputs.gem-version }}"
-        git push
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v6
+      with:
+        base: master
+        branch: bump-up-version-${{ github.event.inputs.gem-version }}
+        delete-branch: true
+        title: Bump ${{ github.event.inputs.gem-version }}
+        commit-message: "Bump ${{ github.event.inputs.gem-version }}"

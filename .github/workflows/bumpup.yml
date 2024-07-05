@@ -7,10 +7,6 @@ on:
         description: Gem version
         required: true
         type: string
-      email:
-        description: Your email
-        required: true
-        type: string
 
 jobs:
   bump_up_gem_version:
@@ -28,8 +24,8 @@ jobs:
 
     - name: config
       run: |
-        git config --global user.email ${{ github.event.inputs.email }}
-        git config --global user.name ${{ github.actor }}
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
     - name: update sunmodule
       run: git submodule foreach git pull origin master

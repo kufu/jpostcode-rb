@@ -1,0 +1,48 @@
+name: Bump up gem version
+
+on:
+  workflow_dispatch:
+    inputs:
+      gem-version:
+        description: Gem version
+        required: true
+        type: string
+
+jobs:
+  bump_up_gem_version:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+          fetch-depth: 0
+          submodules: true
+
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
+        bundler-cache: true
+
+    - name: config
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+    - name: update sunmodule
+      run: git submodule foreach git pull origin master
+
+    # ref https://qiita.com/hatsu/items/a7acd14259c3914aad4d
+    - name: update gem version
+      run: |
+        sed -i "s/VERSION = \".*\"/VERSION = \"${{ github.event.inputs.gem-version }}\"/" lib/jpostcode/version.rb
+
+    - name: bundle install
+      run: bundle install
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v6
+      with:
+        base: master
+        branch: bump-up-version-${{ github.event.inputs.gem-version }}
+        delete-branch: true
+        title: Bump ${{ github.event.inputs.gem-version }}
+        commit-message: "Bump ${{ github.event.inputs.gem-version }}"

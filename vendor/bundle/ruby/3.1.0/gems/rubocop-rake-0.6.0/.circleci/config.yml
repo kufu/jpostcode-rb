@@ -1,0 +1,44 @@
+version: 2
+
+steps: &steps
+  steps:
+    - checkout
+    - run: bundle install
+    - run: bundle exec rake
+
+jobs:
+
+  ruby-2.5:
+    docker:
+      - image: circleci/ruby:2.5
+    <<: *steps
+
+  ruby-2.6:
+    docker:
+      - image: circleci/ruby:2.6
+    <<: *steps
+
+  ruby-2.7:
+    docker:
+      - image: circleci/ruby:2.7
+    <<: *steps
+
+  ruby-3.0:
+    docker:
+      - image: circleci/ruby:3.0
+    <<: *steps
+
+  ruby-head:
+    docker:
+      - image: rubocophq/circleci-ruby-snapshot:latest
+    <<: *steps
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - ruby-2.5
+      - ruby-2.6
+      - ruby-2.7
+      - ruby-3.0
+      - ruby-head

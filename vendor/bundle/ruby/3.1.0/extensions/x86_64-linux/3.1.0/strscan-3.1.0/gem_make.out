@@ -1,0 +1,17 @@
+current directory: /home/runner/work/jpostcode-rb/jpostcode-rb/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+/opt/hostedtoolcache/Ruby/3.1.6/x64/bin/ruby -I /opt/hostedtoolcache/Ruby/3.1.6/x64/lib/ruby/3.1.0 extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... no
+creating Makefile
+
+current directory: /home/runner/work/jpostcode-rb/jpostcode-rb/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240702-1816-2giyeh sitelibdir\=./.gem.20240702-1816-2giyeh clean
+
+current directory: /home/runner/work/jpostcode-rb/jpostcode-rb/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240702-1816-2giyeh sitelibdir\=./.gem.20240702-1816-2giyeh
+compiling strscan.c
+linking shared-object strscan.so
+
+current directory: /home/runner/work/jpostcode-rb/jpostcode-rb/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240702-1816-2giyeh sitelibdir\=./.gem.20240702-1816-2giyeh install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20240702-1816-2giyeh

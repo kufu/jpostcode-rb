@@ -22,11 +22,6 @@ jobs:
         ruby-version: '3.1'
         bundler-cache: true
 
-    - name: config
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
     - name: update sunmodule
       run: git submodule foreach git pull origin master
 

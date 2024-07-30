@@ -27,8 +27,10 @@ jobs:
 
     # ref https://qiita.com/hatsu/items/a7acd14259c3914aad4d
     - name: update gem version
+      env:
+        VERSION: ${{ github.event.inputs.gem-version }}
       run: |
-        sed -i "s/VERSION = .*/VERSION = ${{ github.event.inputs.gem-version }} /" lib/jpostcode/version.rb
+        sed -i "s/VERSION = .*/VERSION = '${{ github.event.inputs.gem-version }}' /" lib/jpostcode/version.rb
 
     - name: bundle install
       run: bundle install

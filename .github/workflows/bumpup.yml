@@ -22,18 +22,22 @@ jobs:
         ruby-version: '3.1'
         bundler-cache: true
 
-    - name: config
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
     - name: update sunmodule
       run: git submodule foreach git pull origin master
 
     # ref https://qiita.com/hatsu/items/a7acd14259c3914aad4d
     - name: update gem version
+      env:
+        VERSION: ${{ github.event.inputs.gem-version }}
       run: |
-        sed -i "s/VERSION = \".*\"/VERSION = \"${{ github.event.inputs.gem-version }}\"/" lib/jpostcode/version.rb
+        regex="\(0\|[1-9][0-9]*\).\(0\|[1-9][0-9]*\)\.\(0\|[1-9][0-9]*\)\.\([0-9]*\)"
+        if [[ "${VERSION}" =~ $regex ]]; then
+          echo OK
+        else
+          echo "::error::Invalid version format."
+          exit 1
+        fi
+        sed -i "s/VERSION = .*/VERSION = '${VERSION}' /" lib/jpostcode/version.rb
 
     - name: bundle install
       run: bundle install

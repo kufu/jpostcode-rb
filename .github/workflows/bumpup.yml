@@ -33,7 +33,9 @@ jobs:
         sed -i "s/VERSION = .*/VERSION = '${VERSION}' /" lib/jpostcode/version.rb
 
     - name: bundle install
-      run: bundle install
+      run: |
+        bundle config set frozen false
+        bundle install
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v6

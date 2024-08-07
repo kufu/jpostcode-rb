@@ -30,7 +30,7 @@ jobs:
       env:
         VERSION: ${{ github.event.inputs.gem-version }}
       run: |
-        sed -i "s/VERSION = .*/VERSION = '${VERSION}' /" lib/jpostcode/version.rb
+        sed -i "s/VERSION = .*/VERSION = '${VERSION}'/" lib/jpostcode/version.rb
 
     - name: bundle install
       run: |

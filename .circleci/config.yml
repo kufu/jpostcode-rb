@@ -4,22 +4,13 @@ executors:
   working_directory: /root/jpostcode-rb
   ruby_3_2:
     docker:
-      - image: rubylang/ruby:3.2-dev-jammy
-        auth:
-          username: smarthrinc
-          password: $DOCKER_HUB_ACCESS_TOKEN
+      - image: cimg/ruby:3.2
   ruby_3_1:
     docker:
-      - image: rubylang/ruby:3.1-dev-focal
-        auth:
-          username: smarthrinc
-          password: $DOCKER_HUB_ACCESS_TOKEN
+      - image: cimg/ruby:3.1
   ruby_3_0:
     docker:
-      - image: rubylang/ruby:3.0-dev-focal
-        auth:
-          username: smarthrinc
-          password: $DOCKER_HUB_ACCESS_TOKEN
+      - image: cimg/ruby:3.0
 
 commands:
   install_system_dependencies:
@@ -28,7 +19,7 @@ commands:
       - run:
           name: Install System Dependencies
           # https://circleci.com/docs/2.0/custom-images/#required-tools-for-primary-containers
-          command: apt-get update -y && apt-get install -y ssh
+          command: sudo apt-get update -y && sudo apt-get install -y ssh
 
   submodule_sync:
     description: "git submodule init & update"
@@ -86,9 +77,6 @@ workflows:
   version: 2
   test:
     jobs:
-      - run_tests_on_ruby_3_2:
-          context: smarthr-dockerhub
-      - run_tests_on_ruby_3_1:
-          context: smarthr-dockerhub
-      - run_tests_on_ruby_3_0:
-          context: smarthr-dockerhub
+      - run_tests_on_ruby_3_2
+      - run_tests_on_ruby_3_1
+      - run_tests_on_ruby_3_0

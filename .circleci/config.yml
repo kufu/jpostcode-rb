@@ -1,17 +1,5 @@
 version: 2.1
 
-executors:
-  working_directory: /root/jpostcode-rb
-  ruby_3_2:
-    docker:
-      - image: cimg/ruby:3.2
-  ruby_3_1:
-    docker:
-      - image: cimg/ruby:3.1
-  ruby_3_0:
-    docker:
-      - image: cimg/ruby:3.0
-
 commands:
   install_system_dependencies:
     description: "Install system dependencies"
@@ -48,24 +36,12 @@ commands:
             bundle exec rubocop
 
 jobs:
-  run_tests_on_ruby_3_2:
-    executor: ruby_3_2
-    steps:
-      - install_system_dependencies
-      - checkout
-      - submodule_sync
-      - bundle_gems
-      - run_tests
-  run_tests_on_ruby_3_1:
-    executor: ruby_3_1
-    steps:
-      - install_system_dependencies
-      - checkout
-      - submodule_sync
-      - bundle_gems
-      - run_tests
-  run_tests_on_ruby_3_0:
-    executor: ruby_3_0
+  test:
+    parameters:
+      ruby-version:
+        type: string
+    docker:
+      - image: cimg/ruby:<< parameters.ruby-version >>
     steps:
       - install_system_dependencies
       - checkout
@@ -74,9 +50,13 @@ jobs:
       - run_tests
 
 workflows:
-  version: 2
-  test:
+  all-tests:
     jobs:
-      - run_tests_on_ruby_3_2
-      - run_tests_on_ruby_3_1
-      - run_tests_on_ruby_3_0
+      - test:
+          matrix:
+            parameters:
+              ruby-version:
+                - "3.0"
+                - "3.1"
+                - "3.2"
+                - "3.3"

@@ -42,6 +42,7 @@ jobs:
         type: string
     docker:
       - image: cimg/ruby:<< parameters.ruby-version >>
+    resource_class: small
     steps:
       - install_system_dependencies
       - checkout

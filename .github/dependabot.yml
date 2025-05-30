@@ -10,4 +10,10 @@ updates:
   versioning-strategy: lockfile-only
   allow:
   - dependency-type: direct
-  - dependency-type: indirect
+  groups:
+    rubocop:
+      patterns:
+        - "rubocop*"
+    rspec:
+      patterns:
+        - "rspec*"

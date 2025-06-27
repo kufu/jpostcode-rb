@@ -1,38 +1,24 @@
 name: Push to rubygems.org
 
 on:
-  workflow_dispatch:
-    inputs:
-      rubygems-otp-code:
-        description: RubyGems OTP code
-        required: true
-        type: string
-      email:
-        description: Your email
-        required: true
-        type: string
+  release:
+    types:
+      - published
 
 jobs:
   release:
     runs-on: ubuntu-latest
-    env:
-      GEM_HOST_API_KEY: ${{ secrets.GEM_HOST_API_KEY }}
-      GEM_HOST_OTP_CODE: ${{ github.event.inputs.rubygems-otp-code }}
+    permissions:
+      contents: write
+      id-token: write
     steps:
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-        submodules: true
-
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1'
-        bundler-cache: true
-
-    - name: config
-      run: |
-        git config --global user.email ${{ github.event.inputs.email }}
-        git config --global user.name ${{ github.actor }}
-
-    - name: release
-      run: bundle exec rake release
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: true
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          rubygems: latest
+          bundler-cache: true
+      - uses: rubygems/release-gem@v1

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jpostcode (1.0.0.20251003)
+    jpostcode (1.0.0.20251104)
 
 GEM
   remote: https://rubygems.org/

@@ -17,3 +17,11 @@ updates:
     rspec:
       patterns:
         - "rspec*"
+  cooldown:
+    default-days: 3
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: "weekly"
+  cooldown:
+    default-days: 3

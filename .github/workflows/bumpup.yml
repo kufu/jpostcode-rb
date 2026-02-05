@@ -12,12 +12,12 @@ jobs:
   bump_up_gem_version:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
       with:
           fetch-depth: 0
           submodules: true
 
-    - uses: ruby/setup-ruby@v1
+    - uses: ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd # v1.288.0
       with:
         ruby-version: '3.1'
         bundler-cache: true
@@ -38,7 +38,7 @@ jobs:
         bundle install
 
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v6
+      uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c # v6.1.0
       with:
         base: master
         branch: bump-up-version-${{ github.event.inputs.gem-version }}

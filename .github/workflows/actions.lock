@@ -6,10 +6,10 @@ workflows:
     '.github/workflows/bumpup.yml':
         - 'actions/checkout@v7.0.1'
         - 'peter-evans/create-pull-request@v8.1.1'
-        - 'ruby/setup-ruby@v1.335.0'
+        - 'ruby/setup-ruby@v1.338.0'
     '.github/workflows/release.yml':
         - 'actions/checkout@v7.0.1'
-        - 'ruby/setup-ruby@v1.335.0'
+        - 'ruby/setup-ruby@v1.338.0'
         - 'rubygems/release-gem@v1.4.1'
     '.github/workflows/verify-actions-lock.yml':
         - 'actions/checkout@v7.0.1'
@@ -24,9 +24,9 @@ dependencies:
         commit: 'sha1-5f6978faf089d4d20b00c7766989d076bb2fc7f1'
         owner_id: 18365890
         repo_id: 197176365
-    'ruby/setup-ruby@v1.335.0':
-        ref: 'v1.335.0'
-        commit: 'sha1-7f797815d8adceb1c412e7abefdd1ab4abc47a5f'
+    'ruby/setup-ruby@v1.338.0':
+        ref: 'v1.338.0'
+        commit: 'sha1-b3aaceaef7e0ee231b499e7b5f49c03fc1d32199'
         owner_id: 210414
         repo_id: 231208785
     'rubygems/configure-rubygems-credentials@dc5a8d8553e6ee01fc26761a49e99e733d17954a':

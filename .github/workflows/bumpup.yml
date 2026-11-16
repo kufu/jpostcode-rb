@@ -37,7 +37,7 @@ jobs:
         bundle install
 
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v8.1.1
+      uses: peter-evans/create-pull-request@v8.1.3
       with:
         base: master
         branch: bump-up-version-${{ github.event.inputs.gem-version }}
